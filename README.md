@@ -30,7 +30,7 @@ YAML Code is seperated into 5 parts
 
 Here is an example Super Linter YAML file:
 
-```
+```yml
 name: Super-Linter
 
 on: push # specifies when the workflow is triggered (when pushing code)
@@ -47,7 +47,6 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 ```
 
 WORKFLOW FILES MUST BE IN Repository DIRECTIORY `~/.github/workflows/superlinter.YML`
