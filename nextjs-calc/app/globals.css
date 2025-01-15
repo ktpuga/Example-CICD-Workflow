@@ -1,16 +1,17 @@
+/* eslint-disable */
 /* globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: linear-gradient(45deg, #03A9F4, #033B94);
+  --background: linear-gradient(45deg, #03a9f4, #033b94);
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: linear-gradient(45deg, #0a0a0a, #033B94);
+    --background: linear-gradient(45deg, #0a0a0a, #033b94);
     --foreground: #ededed;
   }
 }

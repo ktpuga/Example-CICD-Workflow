@@ -1,3 +1,4 @@
+---
 name: Super-Linter
 
 on: push # specifies when the workflow is triggered (when pushing code)
