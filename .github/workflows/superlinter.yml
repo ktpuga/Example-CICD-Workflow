@@ -1,0 +1,16 @@
+name: Super-Linter
+
+on: push # specifies when the workflow is triggered (when pushing code)
+
+jobs:
+  super-lint: # one job that has multiple steps
+    name: Lint code Base
+    runs-on: ubuntu-latest # container environment (hosted on GH.com)
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run Super-Linter
+        uses: github/super-linter@v4
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
