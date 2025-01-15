@@ -50,7 +50,7 @@ jobs:
 
 ```
 
-WORKFLOW FILES MUST BE IN REPO DIRECTIORY `~/.github/workflows/superlinter.YML`
+WORKFLOW FILES MUST BE IN Repository DIRECTIORY `~/.github/workflows/superlinter.YML`
 
 ### Steps to Get Started
 
