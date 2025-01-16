@@ -7,7 +7,7 @@ Showcase Workflow Tools via GH Actions
 - **Automated Testing**: Examples of automated testing workflows using Jest and other testing frameworks.
 - **Build and Deployment**: Workflows that automate the build and deployment process to GitHub Pages or other hosting services.
 - **Responsive React Application**: A simple React calculator application that demonstrates responsive design and CI/CD best practices.
-- **Slide Deck**: A comprehensive slide deck for presenters to understand and showcase the workflows and tools used in this repository.
+- **Slide Deck**: [A comprehensive slide deck](https://docs.google.com/presentation/d/1yH3cFTovpUMnwmR8guMsx8DorY5PLu3UxuEmF5b3Eos/edit?usp=sharing) for presenters to understand and showcase the workflows and tools used in this repository.
 
 ## Setup and Usage
 
@@ -31,6 +31,7 @@ YAML Code is seperated into 5 parts
 Here is an example Super Linter YAML file:
 
 ```yml
+---
 name: Super-Linter
 
 on: push # specifies when the workflow is triggered (when pushing code)
